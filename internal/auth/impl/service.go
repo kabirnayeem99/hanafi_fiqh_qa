@@ -3,10 +3,10 @@ package impl
 import (
 	"context"
 
-	"go-backend-template/internal/auth"
-	"go-backend-template/internal/base/crypto"
-	"go-backend-template/internal/base/errors"
-	"go-backend-template/internal/user"
+	"hanafi_fiqh_qa/internal/auth"
+	"hanafi_fiqh_qa/internal/base/crypto"
+	"hanafi_fiqh_qa/internal/base/errors"
+	"hanafi_fiqh_qa/internal/user"
 )
 
 type AuthServiceOpts struct {

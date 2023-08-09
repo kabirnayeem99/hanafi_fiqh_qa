@@ -8,11 +8,11 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"go-backend-template/internal/user"
+	"hanafi_fiqh_qa/internal/user"
 
-	cryptoMock "go-backend-template/internal/base/crypto/mock"
-	dbMock "go-backend-template/internal/base/database/mock"
-	userMock "go-backend-template/internal/user/mock"
+	cryptoMock "hanafi_fiqh_qa/internal/base/crypto/mock"
+	dbMock "hanafi_fiqh_qa/internal/base/database/mock"
+	userMock "hanafi_fiqh_qa/internal/user/mock"
 )
 
 func TestUserUsecases_Add(t *testing.T) {

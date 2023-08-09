@@ -9,12 +9,12 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	auth "go-backend-template/internal/auth"
-	authMock "go-backend-template/internal/auth/mock"
-	cryptoMock "go-backend-template/internal/base/crypto/mock"
-	baseErrors "go-backend-template/internal/base/errors"
-	user "go-backend-template/internal/user"
-	userMock "go-backend-template/internal/user/mock"
+	auth "hanafi_fiqh_qa/internal/auth"
+	authMock "hanafi_fiqh_qa/internal/auth/mock"
+	cryptoMock "hanafi_fiqh_qa/internal/base/crypto/mock"
+	baseErrors "hanafi_fiqh_qa/internal/base/errors"
+	user "hanafi_fiqh_qa/internal/user"
+	userMock "hanafi_fiqh_qa/internal/user/mock"
 )
 
 func TestAuthUsecases_Login(t *testing.T) {

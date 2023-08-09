@@ -1,4 +1,4 @@
-module go-backend-template
+module hanafi_fiqh_qa
 
 go 1.17
 

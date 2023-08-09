@@ -3,9 +3,9 @@ package impl
 import (
 	"context"
 
-	"go-backend-template/internal/base/crypto"
-	"go-backend-template/internal/base/database"
-	"go-backend-template/internal/user"
+	"hanafi_fiqh_qa/internal/base/crypto"
+	"hanafi_fiqh_qa/internal/base/database"
+	"hanafi_fiqh_qa/internal/user"
 )
 
 type UserUsecasesOpts struct {

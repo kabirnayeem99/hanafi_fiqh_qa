@@ -61,4 +61,4 @@ $ ./bin/http-server --env-path ./config/env/.env
 
 ## License
 
-This project is licensed under the [MIT License](https://github.com/pvarentsov/go-backend-template/blob/main/LICENSE).
+This project is licensed under the [MIT License](https://github.com/pvarentsov/hanafi_fiqh_qa/blob/main/LICENSE).

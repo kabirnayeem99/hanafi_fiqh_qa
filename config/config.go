@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"time"
 
-	"go-backend-template/api/http"
-	"go-backend-template/internal/auth"
-	"go-backend-template/internal/base/database"
+	"hanafi_fiqh_qa/api/http"
+	"hanafi_fiqh_qa/internal/auth"
+	"hanafi_fiqh_qa/internal/base/database"
 
 	"github.com/kelseyhightower/envconfig"
 	"github.com/subosito/gotenv"

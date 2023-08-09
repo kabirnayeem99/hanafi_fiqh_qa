@@ -3,7 +3,7 @@ package http
 import (
 	"net/http"
 
-	"go-backend-template/internal/base/errors"
+	"hanafi_fiqh_qa/internal/base/errors"
 )
 
 func parseError(err error) (status int, message, details string) {

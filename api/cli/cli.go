@@ -2,7 +2,7 @@ package cli
 
 import (
 	"github.com/alecthomas/kong"
-	"go-backend-template/config"
+	"hanafi_fiqh_qa/config"
 )
 
 // Scheme

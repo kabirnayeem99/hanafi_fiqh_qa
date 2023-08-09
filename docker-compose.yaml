@@ -3,22 +3,22 @@ version: '3.8'
 services:
   postgres:
     image: postgres:14-alpine
-    container_name: go-backend-template-postgres
+    container_name: hanafi_fiqh_qa-postgres
     ports:
       - '5454:5432'
     volumes:
       - postgres_data:/var/lib/postgresql/data
     environment:
-      - POSTGRES_PASSWORD=go-backend-template
-      - POSTGRES_USER=go-backend-template
-      - POSTGRES_DB=go-backend-template
+      - POSTGRES_PASSWORD=hanafi_fiqh_qa
+      - POSTGRES_USER=hanafi_fiqh_qa
+      - POSTGRES_DB=hanafi_fiqh_qa
     networks:
       - network
 
 volumes:
   postgres_data:
-    name: 'go-backend-template-postgres-data'
+    name: 'hanafi_fiqh_qa-postgres-data'
 
 networks:
   network:
-    name: 'go-backend-template-network'
+    name: 'hanafi_fiqh_qa-network'

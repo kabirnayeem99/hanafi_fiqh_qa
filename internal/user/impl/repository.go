@@ -6,10 +6,10 @@ import (
 	"github.com/jackc/pgconn"
 	"github.com/jackc/pgerrcode"
 
-	"go-backend-template/internal/base/errors"
-	"go-backend-template/internal/user"
+	"hanafi_fiqh_qa/internal/base/errors"
+	"hanafi_fiqh_qa/internal/user"
 
-	databaseImpl "go-backend-template/internal/base/database/impl"
+	databaseImpl "hanafi_fiqh_qa/internal/base/database/impl"
 )
 
 type UserRepositoryOpts struct {

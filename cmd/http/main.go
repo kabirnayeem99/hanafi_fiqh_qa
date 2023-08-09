@@ -4,13 +4,13 @@ import (
 	"context"
 	"log"
 
-	"go-backend-template/api/cli"
-	"go-backend-template/api/http"
+	"hanafi_fiqh_qa/api/cli"
+	"hanafi_fiqh_qa/api/http"
 
-	authImpl "go-backend-template/internal/auth/impl"
-	cryptoImpl "go-backend-template/internal/base/crypto/impl"
-	databaseImpl "go-backend-template/internal/base/database/impl"
-	userImpl "go-backend-template/internal/user/impl"
+	authImpl "hanafi_fiqh_qa/internal/auth/impl"
+	cryptoImpl "hanafi_fiqh_qa/internal/base/crypto/impl"
+	databaseImpl "hanafi_fiqh_qa/internal/base/database/impl"
+	userImpl "hanafi_fiqh_qa/internal/user/impl"
 )
 
 func main() {

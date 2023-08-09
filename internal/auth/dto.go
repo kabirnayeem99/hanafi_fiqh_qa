@@ -1,6 +1,6 @@
 package auth
 
-import "go-backend-template/internal/user"
+import "hanafi_fiqh_qa/internal/user"
 
 type LoginUserDto struct {
 	Email    string `json:"email"`

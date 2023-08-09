@@ -4,7 +4,7 @@ package mocks
 
 import (
 	context "context"
-	user "go-backend-template/internal/user"
+	user "hanafi_fiqh_qa/internal/user"
 
 	mock "github.com/stretchr/testify/mock"
 )
